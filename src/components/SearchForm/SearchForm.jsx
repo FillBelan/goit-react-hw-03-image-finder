@@ -37,7 +37,7 @@ export class SearchFormHeader extends Component {
           autoFocus
           value={request}
           onChange={this.handleChange}
-          placeholder="Search images and photos"
+          placeholder="Search images by your request"
         />
         <SearchFormButton type="submit">
           <SearchFormButtonImg src={require('../../imgs/serchBtn.png')} />
